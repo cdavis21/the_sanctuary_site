@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>The Sanctuary PreK</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+  <script src="js/jquery.bxslider.min.js"></script>
+  <!-- bxSlider CSS file -->
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple
+  " rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+
+  <link href="css/custom.css" rel="stylesheet">
+  <style>
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+  </style>
+
+</head>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="200">
+  <script>
+  function initMap() {
+    var uluru = {lat: 36.491486, lng: -80.604943};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 17,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+
+  $(document).ready(function(){
+    $('.slider4').bxSlider({
+      slideWidth: 400,
+      minSlides: 1,
+      maxSlides: 3,
+      moveSlides: 1,
+      slideMargin: 10,
+      auto: true,
+      autoControls: true
+
+    });
+  });
+
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzIWKJtFRtV-vrVXurBaCeCpyWVdvGvJ8&callback=initMap">
+  </script>
+
+  <nav class="navbar outter-navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <img class="navbar-brand img-responsive" src="img/2008 Sancturary Logo - White 1024x768 new.JPG"></img>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav nav-tabs nav-justified">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#programs">Language Development Program</a></li>
+              <li><a href="#programs">Kindergarten Readiness Program </a></li>
+            </ul>
+          </li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#pricing">Tuition</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+
+  <div class="jumbotron">
+    <div class="container-fluid">
+      <div class="hero">
+        <hgroup>
+          <strong><h1 style="color:white;" align="center">The Sanctuary</h1></strong>
+          <strong><h1 style="color:white;" align="center">Pre-K</h1></strong>
+          <br>
+          <h4 style="color:white;" align="center">Now Enrolling!</h4>
+        </hgroup>
+        <p align="center"><a class="btn btn-primary btn-lg" href="#aboutus" role="button">Learn more &raquo;</a></p>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="aboutus" class="container-fluid text-center smallAbout">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <img class="img-responsive" src="img/telescope.jpg">
+      </div>
+      <div class="col-md-8">
+        <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple">Vision</h1>
+        <br>
+
+
+        <div class=row>
+          <div class="col-md-1"></div>
+          <div class="col-md-9">
+
+
+            <p style="font-family:  'Playfair Display', serif; font-size: 120%;">To meet the needs of parents and families in our community by providing high-quality, affordable Christian childcare and education programs that focus on the holistic development of the children in our care.</p>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+
+      <div class="col-md-6">
+        <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple">Mission</h1>
+        <p style="font-family:  'Playfair Display', serif; font-size: 120%;">To apply evidence-based practices in an inclusive small group setting to effectively meet the needs of each child. Appropriate developmental goals are established for both atypical and typically developing children with progress consistently monitored through ongoing assessments. 
+        </p>
+      </div>
+
+
+      <div class="col-md-6">
+
+        <img class="img-responsive" src="img/wide_children.jpg">
+      </div>
+    </div>
+<br><br><br>
+    <div class="row ">
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <img class="img-circle img-responsive " src="img/brittany.jpg">
+      </div>
+      <div class="col-md-8">
+        <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple">Meet Our Director</h1>
+        <br>
+
+        <div class=row>
+          <div class="col-md-1"></div>
+          <div class="col-md-9">
+            <p style="font-family:  'Playfair Display', serif; font-size: 120%;">My name is Brittany Watson and I have been in the field of education for over 10 years. I possess a M.S. degree in Early Childhood Education and am currently pursuing a M.Ed degree in Special Education. I am the mother of three beautiful children and an aspiring children’s book author.
+
+              At the Sanctuary PreK, we have designed a program that uses evidence-based practices in the field of early intervention paired with kindergarten readiness to help children reach their fullest potential.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <button class="btn btn-primary btn-lg" type="submit" onclick="window.open('forms/LDP KRP Brochure.pdf')">Download Brochure</button>
+  </div>
+
+  <div id="programs" class="container-fluid text-center comingup" >
+    <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple" >Programs</h2>
+      <br>
+      <strong><p style="font-family:'Boogaloo', cursive; color:white; font-size:160%;">Our programs apply evidence-based practices in an inclusive small group setting to effectively meet the needs of each child. Appropriate developmental goals are established for both atypical and typically developing children with progress consistently monitored through ongoing assessments. 
+</p></strong>
+
+
+<br></br>
+<div class="row center-block">
+  <div class="col-md-11 col-md-offset-1">
+
+    <div class="col-md-4 col-md-offset-1">
+      <img class="circle-img img-circle img-responsive center-block" src="img/block_girl.jpg" />
+      <br>
+      <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple" >Language Development Program</h1>
+      <p style="font-family:'Boogaloo', cursive; color:white; font-size:130%;">Our inclusive Language Development Program is designed to meet the communication milestones of toddlers, when speech and language development is most critical. Each child is given an initial assessment to determine receptive and expressive language skills. Individualized goals are used to address any deficit area. From children who require specialized instruction to those who simply need an opportunity to socialize, the Language Development Program addresses their needs in an inclusive small group setting.</p>
+    </div>
+
+
+    <div class="col-md-4 col-md-offset-1">
+      <img class="circle-img img-circle img-responsive center-block" src="img/boy_crayons.jpg" />
+      <br>
+      <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple" >Kindergarten Readiness Program</h1>
+      <p style="font-family:'Boogaloo', cursive; color:white; font-size:130%;">In recent years, school systems have begun to look at a child’s physical, social, and cognitive development to determine if he or she is ready for kindergarten. This new approach has made the need for quality pre-kindergarten programs much more prevalent. At The Sanctuary Pre-K, pre-readiness skills are incorporated into each student’s individualized learning goals. Assessments are conducted regularly to determine student progress and problem areas.</p>
+    </div>
+  </div>
+</div>
+
+<h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple" >Forms</h2>
+<p style="font-family:'Boogaloo', cursive; color:white; font-size:130%;">You will find the link below to download the Enrollment form and Language Development Survey. Once you have completed both forms, please contact our office to schedule your child's initial assessment.</p>
+<button class="btn btn-primary btn-lg" type="submit" onclick="window.open('forms/Preschool Enrollment Form.pdf')">Download Enrollment Form</button>
+<button class="btn btn-primary btn-lg" type="submit" onclick="window.open('forms/Language Development Survey.pdf')">Download Survey Form</button>
+
+<!--<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple">Language Development Program FAQ</h1>
+<p style="font-family:'Boogaloo', cursive; color:white; font-size:130%;">Who will benefit from this program?<br>
+Any child who needs to develop socialization skills or demonstrates a delay in language acquisition<br>
+What is the enrollment process?<br>
+After you have completed the registration form and submitted it online, a staff member will contact you to schedule the intake assessment. The program director will discuss the assessment results with you and help you select the goals most appropriate for your child’s ability level.<br>
+How is my child’s progress monitored?<br>
+Progress is monitored through daily notations and monthly assessments</p>
+</div>
+</div>-->
+</div>
+
+
+
+
+
+<div id="facilities" class="container-fluid text-center facilities">
+  <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple">Facilities</h1>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/baby.jpg" data-fancybox="gallery"><img src="img/baby.jpg"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/class4.jpg" data-fancybox="gallery"><img src="img/class4.jpg"></a>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/class1.jpg" data-fancybox="gallery"><img src="img/class1.jpg"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/class2.jpg" data-fancybox="gallery"><img src="img/class2.jpg"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/boys.jpg" data-fancybox="gallery"><img src="img/boys.jpg"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/class3.jpg" data-fancybox="gallery"><img src="img/class3.jpg"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/table.jpg" data-fancybox="gallery"><img src="img/table.jpg"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/house.jpg" data-fancybox="gallery"><img src="img/house.jpg"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/craft1.jpg" data-fancybox="gallery"><img src="img/craft1.jpg"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/bible_paint.png" data-fancybox="gallery"><img src="img/bible_paint.png"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/jello.png" data-fancybox="gallery"><img src="img/jello.png"></a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="img/snack.png" data-fancybox="gallery"><img src="img/snack.png"></a>
+    </div>
+  </div>
+</div>
+
+<div id="pricing" class="container-fluid pricing"  >
+  <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple">Tuition</h1>
+  <br>
+  <br>
+  <div class="row">
+    <div class ="col-md-2"></div>
+    <div class ="col-md-8 table-responsive">
+      <p><i>8am-12noon, Ages 2-5</p></i>
+      <table class="table table-bordered tablefont">
+        <thead>
+          <tr>
+            <th>Days Per Week</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3 days per week (MWF)</td>
+            <td>$55</td>
+          </tr>
+          <tr>
+            <td>2 days per week (T TH)</td>
+            <td>$40</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><i>A daily snack will be provided.</p></i>
+      <p><i>*Daily rates are not available for the Language Development Program </i></p>
+    </div>
+  </div>
+</div>
+
+<div id="testimonials" class="container-fluid"  >
+  <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple">Testimonials</h1>
+  <br>
+  <br>
+  <p style="font-family:  'Playfair Display', serif; font-size: 120%;">Parent Testimonials:</P>
+    <br>
+    <br>
+<p style="font-family:  'Playfair Display', serif; font-size: 120%;">“Before Brittany began sessions with my daughter, she could only say a few words. It was very frustrating for my husband and I to not be able to communicate with her. Brittany was able to connect with my daughter and I saw amazing improvements in her speech and behavior.”  Terry, NC</p>
+<br>
+<p style="font-family:  'Playfair Display', serif; font-size: 120%;">“Brittany's work with my son has helped to develop his language tremendously. After each session, I noticed that my son's language and communication skills were increasingly becoming more developed. She gave him confidence in speaking, which he did not have before. She has been a blessing in his life and I am forever thankful for her services.”
+– Natasha, NC</p>
+
+</div>
+
+
+<div id="contactus" class="container-fluid text-center contactus">
+  <h1 style="font-family: 'Fredoka One', cursive; color:#ffd11a" class="text-center font-effect-shadow-multiple">Contact Us</h1>
+
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-md-10 col-centered">
+      <div id="map"></div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-4 col-centered">
+      <p style="font-family:'Boogaloo', cursive; color:white; font-size:130%;">410 Worth Street</p>
+      <p style="font-family:'Boogaloo', cursive; color:white; font-size:130%;">Mount Airy, North Carolina 27030</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-centered">
+      <p style="font-family:'Boogaloo', cursive; color:white; font-size:130%;">thesanctuaryprek@gmail.com</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-centered">
+      <p style="font-family:'Boogaloo', cursive; color:white; font-size:130%;">(336) - 783 - 7876</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-centered">
+      <p style="font-family:'Boogaloo', cursive; color:white; font-size:130%;">Monday – Friday, 8am -12pm</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-2 col-centered">
+      <div class="col-xs-5  col-centered">
+        <a class="navbar-brand fa fa-facebook-square"  style="font-size:30px; color:gold; text-align: center;" href="https://www.facebook.com/teachingforchrist"></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="container-fluid text-center footer">
+  <p>The Sanctuary PreK</p>
+</footer>
+
+</html>
